@@ -1,10 +1,12 @@
 import React from 'react';
+import {ApolloProvider} from "react-apollo";
+import client from "./client.js";
 
 function App() {
     return (
-        <div>
-            Hello
-        </div>
+        <ApolloProvider client={client}>
+            <div>Hello</div>
+        </ApolloProvider>
     );
 }
 
