@@ -2,8 +2,8 @@ import React from 'react';
 import {ApolloProvider} from "react-apollo";
 import {HashRouter, Route} from "react-router-dom";
 import client from "./client.js";
-import Home from "component/Home.js";
-import Detail from "component/Detail.js";
+import Home from "Home.js";
+import Detail from "Detail.js";
 
 
 function App() {
